@@ -1,0 +1,56 @@
+html, body, #app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content {
+    width: 600px;
+}
+
+a {
+    color: #333;
+}
+
+.delayed_01s {
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    animation-delay: .1s;
+}
+
+.delayed_025s {
+    -webkit-animation-delay: .25s;
+    -moz-animation-delay: .25s;
+    animation-delay: .25s;
+}
+
+.delayed_05s {
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    padding: 3rem;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.op0 {
+    opacity: 0
+}
