@@ -6,13 +6,13 @@
 </head>
 
 <body>
-    <div id="app" :style="{ background: color }">
+    <div id="app" :style="{ background: color }" v-cloak>
         <div class="wrapper">
             <div class="content animated fadeInUp delayed_025s">
                 <a @click="changeQuote()">
                     <transition-group enter-active-class="animated fadeIn delayed_01s" leave-active-class="op0">
                         <div :key="quote.text">
-                            <h2>{{ quote.text }}</h2>
+                            <h3>{{ quote.text }}</h3>
                             <p>
                                 <span v-if="quote.by">by <i>{{ quote.by }}</i></span>
                                 <span v-if="quote.in">from {{ quote.in }}</span>
@@ -23,12 +23,13 @@
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
-    <script src="app.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@2.5.16/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
