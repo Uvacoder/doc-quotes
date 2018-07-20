@@ -80,13 +80,33 @@
         "in": "Stanford Commencement, 2005"
     },
     {
-        "text": "Quiet people have the loudest minds",
+        "text": "Quiet people have the loudest minds.",
         "by": "Stephen King",
         "in": ""
     },
     {
         "text": "Come, come, whoever you are. Wanderer, worshiper, lover of leaving. It doesn't matter. Ours is not a caravan of despair. Come, even if you have broken your vows a thousand times. Come, yet again , come , come.",
         "by": "Rumi",
+        "in": ""
+    },
+    {
+        "text": "What hurts you, blesses you. Darkness is your candle.",
+        "by": "Rumi",
+        "in": ""
+    },
+    {
+        "text": "Run from what's comfortable. Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.",
+        "by": "Rumi",
+        "in": ""
+    },
+    {
+        "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+        "by": "Rumi",
+        "in": ""
+    },
+    {
+        "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+        "by": "Mahatma Gandhi",
         "in": ""
     },
     {
@@ -117,6 +137,11 @@
     {
         "text": "Love the life you live. Live the life you love.",
         "by": "Bob Marley",
+        "in": ""
+    },
+    {
+        "text": "May your choices reflect your hopes not your fears.",
+        "by": "Nelson Mandella",
         "in": ""
     }
 ]
